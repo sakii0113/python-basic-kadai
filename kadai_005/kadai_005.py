@@ -7,4 +7,4 @@ z = 5
 
 #面積
 area = (x + y) * z /2
-print(area)
+print(f"{area}cm²")
