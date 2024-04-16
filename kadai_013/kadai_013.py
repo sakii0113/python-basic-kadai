@@ -1,7 +1,5 @@
-def calcurate(price, tax=0.1):
-    tax = price*tax
-    total = price + tax
-    print(f"{total}円")
-
-price = int(input("price: "))
-calcurate(price)
+def calculate(price, tax=0.1):
+    total_price = price + (price * tax)
+    return total_price
+    
+calculate(1000, 0.1)
